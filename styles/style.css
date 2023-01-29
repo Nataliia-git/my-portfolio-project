@@ -66,6 +66,22 @@ h2 {
 .project-description {
   line-height: 30px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section-h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -79,6 +95,10 @@ h2 {
     font-size: 44px;
   }
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .about-section {
     padding: 0;
     text-align: center;
   }
