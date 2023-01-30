@@ -63,6 +63,9 @@ h3 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 .btn-branding {
   color: white;
   background-color: var(--primary-color);
@@ -119,6 +122,35 @@ h2 {
 }
 .content p {
   font-size: 14px;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-media-links a {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+  border-radius: 50%;
+}
+
+footer .social-media-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
