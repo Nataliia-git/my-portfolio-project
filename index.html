@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Nataliia Zazerina is a certified front-end developer based in Spain"
+    />
+    <title>Front-end developer - Nataliia Zazerina</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,17 +36,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="/images/logo.png" alt="" class="logo d-none d-md-block" />
-        <img
-          src="/images/logo-small.jpg"
-          alt=""
-          class="logo d-block d-md-none"
-        />
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            alt="Nataliia's logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            alt="Nataliia's logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Nataliia">About</a></li>
+          <li>
+            <a href="/work.html" title="Overview of Nataliia's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Nataliia">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -51,7 +63,12 @@
       <h1>Nataliia Zazerina</h1>
       <h3 class="mb-5">Front-end developer based in Europe</h3>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a
+          href="/contact.html"
+          class="btn btn-branding"
+          title="Contact Nataliia Zazerina"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="favourite-projects m-5">
@@ -60,7 +77,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/yogurt.png" class="img-fluid" />
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt Project"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -71,7 +92,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-secondary">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-secondary"
+              title="Preview of Yogurt Project"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -85,16 +111,25 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-secondary">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-secondary"
+              title="Preview of Weather App"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" alt="" class="img-fluid" />
+          <img src="/images/weather.png" alt="Weather App" class="img-fluid" />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" alt="" class="img-fluid" />
+          <img
+            src="images/dictionary.png"
+            alt="Dictionary App"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -105,7 +140,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-secondary">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-secondary"
+              title="Preview of Dictionary App"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -116,25 +156,45 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="#" class="btn btn-branding mb-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mb-3"
+              title="Contact Nataliia Zazerina"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:nataliia@gmail.com" class="email-link"
+          <a
+            href="mailto:nataliia@gmail.com"
+            class="email-link"
+            title="Email Nataliia Zazerina"
             >nataliia@gmail.com</a
           >
         </div>
         <div class="social-media-links d-flex justify-content-center">
-          <a href="https://www.github.com/nataliia" target="_blank"
+          <a
+            href="https://www.github.com/nataliia"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fa fa-github" aria-hidden="true"></i>
           </a>
-          <a href="https://www.instagram.com/nataliia"
+          <a href="https://www.instagram.com/nataliia" title="Instagram Profile"
             ><i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
-          <a href="https://www.twitter.com/nataliia" target="_blank"
+          <a
+            href="https://www.twitter.com/nataliia"
+            target="_blank"
+            title="Twitter Profile"
             ><i class="fa fa-github" aria-hidden="true"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Nataliia Zazerina, and is
+          <a href="https://github.com/Nataliia-git/my-portfolio-project"
+            >open-sourced on GitHub</a
+          >
+        </p>
       </footer>
     </div>
   </body>
